@@ -1,0 +1,727 @@
+.maid-registration-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.maid-registration-maid-registration {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.maid-registration-navbar1 {
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  padding: 0 64px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-container1 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.maid-registration-content {
+  display: flex;
+  align-items: flex-start;
+}
+.maid-registration-color-dark {
+  width: 63px;
+  height: 27px;
+}
+.maid-registration-column {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maid-registration-column1 {
+  gap: 32px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.maid-registration-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text04 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-nav-link-dropdown {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maid-registration-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-chevron-down {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-actions {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maid-registration-style-secondary-small-true-darkmode-false-iconposition-no {
+  gap: 8px;
+  display: flex;
+  padding: 8px 20px;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.maid-registration-text08 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-style-primary-small-true-darkmode-false-iconposition-noic {
+  gap: 8px;
+  display: flex;
+  padding: 8px 20px;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.maid-registration-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-header54 {
+  gap: 80px;
+  width: 1440px;
+  height: 369px;
+  display: flex;
+  padding: 112px 64px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/external/tq_zigckycuwb-tvy5-400h.png");
+}
+.maid-registration-content1 {
+  gap: 24px;
+  width: 768px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text12 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.maid-registration-text14 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-form5 {
+  gap: 24px;
+  width: 1064px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-content2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.maid-registration-breakpoint-desktop {
+  gap: 24px;
+  display: flex;
+  padding: 0 0 24px;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-column2 {
+  gap: 8px;
+  width: 1064px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text16 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-text18 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-container2 {
+  gap: 24px;
+  width: 560px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-inputs {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.maid-registration-input {
+  gap: 8px;
+  width: 272px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text20 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-input1 {
+  gap: 8px;
+  width: 272px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text22 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default1 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-input2 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.maid-registration-text24 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-twoicons {
+  gap: 12px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-iconenvelope {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-text26 {
+  color: rgba(102, 102, 102, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-input3 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.maid-registration-text28 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-icon-false {
+  gap: 16px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-text30 {
+  color: rgba(102, 102, 102, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-iconchevrondown {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-input4 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.maid-registration-text32 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default2 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-inputs1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.maid-registration-input5 {
+  gap: 8px;
+  width: 176px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text34 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default3 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-input6 {
+  gap: 8px;
+  width: 176px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text36 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default4 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-input7 {
+  gap: 8px;
+  width: 176px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-text38 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-type-default5 {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-actions1 {
+  gap: 16px;
+  display: flex;
+  padding: 24px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.maid-registration-style-secondary-small-true-darkmode-false-iconposition-no1 {
+  gap: 8px;
+  width: 89px;
+  display: flex;
+  padding: 8px 20px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.maid-registration-text40 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-style-primary-small-true-darkmode-false-iconposition-noic1 {
+  gap: 8px;
+  width: 75px;
+  display: flex;
+  padding: 8px 20px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.maid-registration-text42 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.maid-registration-footer4 {
+  gap: 80px;
+  width: 1440px;
+  display: flex;
+  padding: 80px 64px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.maid-registration-content3 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.maid-registration-logo {
+  gap: 24px;
+  width: 402.5px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.maid-registration-color-dark1 {
+  width: 63px;
+  height: 27px;
+}
+.maid-registration-links {
+  gap: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.maid-registration-text44 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text46 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text48 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text50 {
+  color: rgba(0, 0, 0, 1);
+  width: 97px;
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text52 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-social-links {
+  gap: 12px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.maid-registration-icon-facebook {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-icon-instagram {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-icon-x {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-icon-linked-in {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-icon-youtube {
+  width: 24px;
+  height: 24px;
+}
+.maid-registration-credits {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.maid-registration-divider {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.maid-registration-row {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.maid-registration-text54 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-footer-links {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+.maid-registration-text56 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text58 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.maid-registration-text60 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}

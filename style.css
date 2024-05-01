@@ -1,0 +1,470 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.TextTinyExtraBold {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallExtraBold {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularLight {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumNormal {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingMobileH6 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinyLight {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumBold {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularMedium {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumMedium {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeLight {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingMobileH2 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinyLink {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingMobileH5 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinySemiBold {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallBold {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumLight {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH2 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinyMedium {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeLink {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumExtraBold {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeMedium {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH6 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinyBold {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeSemiBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularExtraBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallLight {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularLink {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingMobileH3 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH4 {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeNormal {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH3 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallNormal {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH1 {
+  font-size: 56px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallLink {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularSemiBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingDesktopH5 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.HeadingMobileH4 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallSemiBold {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextLargeExtraBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextMediumSemiBold {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularNormal {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingMobileH1 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextTinyNormal {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextSmallMedium {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextRegularBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.TextMediumLink {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
